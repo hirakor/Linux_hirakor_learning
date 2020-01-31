@@ -1,0 +1,110 @@
+ 2217  ls
+ 2218  vim auth.log
+ 2219  cat /etc/passwd
+ 2220  cat /etc/passwd|grep syslog
+ 2221  man setuid
+ 2222  man seteuid
+ 2223  man setuid
+ 2224  ps -elf
+ 2225  cd ~/day20/
+ 2226  ls
+ 2227  mkdir state
+ 2228  cd state/
+ 2229  ls
+ 2230  vim while1.c
+ 2231  gcc while1.c
+ 2232  ./a.out &
+ 2233  rm a.out 
+ 2234  ps -elf|grep a.out
+ 2235  ps -elf
+ 2236  top
+ 2237  env
+ 2238  echo $PWD
+ 2239  cd -
+ 2240  env
+ 2241  cd -
+ 2242  env
+ 2243  echo $HOME
+ 2244  md5sum /usr/bin/passwd
+ 2245  cd ~
+ 2246  tar cvzf day20.tar.gz day20
+ 2247  kscp day20.tar.gz 
+ 2248  which passwd
+ 2249  ls
+ 2250  cd day20
+ 2251  ls
+ 2252  cd getuid/
+ 2253  ls
+ 2254  ll
+ 2255  chmod u+s change_file
+ 2256  ll
+ 2257  chmod g-s change_file
+ 2258  ll
+ 2259  chmod u-s change_file
+ 2260  ll
+ 2261  cat change_file.c
+ 2262  chmod u+s change_file
+ 2263  ll
+ 2264  ps -elf
+ 2265  killall ./a.out
+ 2266  killall a.out
+ 2267  ps -elf
+ 2268  ps -aux
+ 2269  ps -aux|grep bash
+ 2270  ps -aux|grep ssh
+ 2271  who
+ 2272  top
+ 2273  ls
+ 2274  cd ../state/
+ 2275  ls
+ 2276  gcc while1.c 
+ 2277  ./a.out &
+ 2278  top
+ 2279  ./a.out 
+ 2280  top
+ 2281  ps -elf|grep a.out
+ 2282  kill -l
+ 2283  kill -18 8359
+ 2284  ps -elf|grep a.out
+ 2285  top
+ 2286  killall a.out 
+ 2287  top
+ 2288  free
+ 2289  free -m
+ 2290  ./a.out &
+ 2291  top
+ 2292  ./a.out &
+ 2293  top
+ 2294  man renice
+ 2295  renice -n +19 -p 8388 
+ 2296  top
+ 2297  ps -elf|grep a.out
+ 2298  man ls
+ 2299  renice -n -20 -p 8388 
+ 2300  sudo renice -n -20 -p 8388 
+ 2301  ps -elf|grep a.out
+ 2302  sudo renice -n -21 -p 8388 
+ 2303  ps -elf|grep a.out
+ 2304  man sched
+ 2305  renice -n +50 -p 8388 
+ 2306* ps -elf|grep a
+ 2307  top
+ 2308  renice -n -19 -p 8388 
+ 2309  sudo renice -n -19 -p 8388 
+ 2310  top
+ 2311  killall a.out 
+ 2312  kssh 
+ 2313  ls
+ 2314  crontab -e
+ 2315  ps -elf|grep a.out
+ 2316  ./a.out
+ 2317  jobs
+ 2318  ./a.out 
+ 2319  jobs
+ 2320  bg 1
+ 2321  jobs
+ 2322  bg 2
+ 2323  jobs
+ 2324  fg 1
+ 2325  history 
+ 2326  history |tail -110 >20200120_history.txt
